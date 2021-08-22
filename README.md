@@ -7,22 +7,23 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## About Laravel 8
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects.
 
 ## Learning Laravel Advanced Topics
 
-In here we talk about laravel advanced topics.
+In here we talk about laravel advanced topics. <br>Blog site: https://myiotlab.in/
 
-## YouTube Playlist - Laravel Advanced Topics
+### YouTube Playlist - Laravel Advanced Topics
 
 https://www.youtube.com/playlist?list=PL397yT3D1n9hAs6auWacgPjwFt6JrwICb
 
 
-### Read Posts
+## Chapters -
 
-- **[Cache and Observer](https://myiotlab.in/post/laravel-advanced-1-laravel-cache-and-observer)**
+- **[1. Cache and Observer](https://myiotlab.in/post/laravel-advanced-1-laravel-cache-and-observer)**
+- **[2. Lazy and Eagar Loading](https://myiotlab.in/post/laravel-advanced-1-laravel-cache-and-observer)**
 
 
 

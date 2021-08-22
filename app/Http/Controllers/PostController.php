@@ -12,9 +12,8 @@ class PostController extends Controller
         $posts = Cache::remember('posts', 60*60, function () {
             return Post::all();
         });
-
-
-        return response($posts,200);
+        // return response($posts,200);
+        return view('posts.index', compact('posts'));
     }
     public function store(Request $request){
         $post = Post::create($request->all());
