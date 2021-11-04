@@ -24,6 +24,7 @@ https://www.youtube.com/playlist?list=PL397yT3D1n9hAs6auWacgPjwFt6JrwICb
 
 - **[1. Cache and Observer](https://myiotlab.in/post/laravel-advanced-1-laravel-cache-and-observer)**
 - **[2. Lazy and Eagar Loading](https://myiotlab.in/post/laravel-advanced-2-laravel-lazy-load-and-eager-load)**
+- **[3. Setup Multiple Database](https://myiotlab.in/post/laravel-advanced-3-setup-multiple-database)**
 
 
 
