@@ -8,6 +8,14 @@ use Illuminate\Database\Eloquent\Model;
 class Post extends Model
 {
     use HasFactory;
+
+    /**
+     * The database connection that should be used by the model.
+     *
+     * @var string
+     */
+    protected $connection = 'sqlite2';
+
     // protected $guarded = [];
     protected $fillable = ['title', 'body'];
 

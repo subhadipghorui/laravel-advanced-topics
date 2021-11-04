@@ -13,7 +13,7 @@ class CreatePostsTable extends Migration
      */
     public function up()
     {
-        Schema::create('posts', function (Blueprint $table) {
+        Schema::connection('sqlite2')->create('posts', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('category_id')->nullable();
             $table->text('title');

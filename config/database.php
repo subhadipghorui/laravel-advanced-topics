@@ -38,7 +38,14 @@ return [
         'sqlite' => [
             'driver' => 'sqlite',
             'url' => env('DATABASE_URL'),
-            'database' => env('DB_DATABASE', database_path('database.sqlite')),
+            'database' => base_path().DIRECTORY_SEPARATOR.env('DB_DATABASE'),
+            'prefix' => '',
+            'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
+        ],
+        'sqlite2' => [
+            'driver' => 'sqlite',
+            'url' => env('DATABASE2_URL'),
+            'database' => base_path().DIRECTORY_SEPARATOR.env('DB2_DATABASE'),
             'prefix' => '',
             'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
         ],
