@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\UsersController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,5 +18,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/users', [UsersController::class, 'index']);
+Route::post('/users/listJson', [UsersController::class, 'listJson'])->name('users.listJson');
+
 Route::get('/posts', [PostController::class, 'index']);
 Route::post('/post', [PostController::class, 'store']);
